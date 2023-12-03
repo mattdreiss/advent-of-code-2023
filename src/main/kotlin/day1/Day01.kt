@@ -2,7 +2,7 @@ package day1
 
 import utils.InputReader
 
-fun main(args: Array<String>) {
+fun main() {
     val input = InputReader("01.txt").readLines()
     val document = CalibrationDocument(input)
 
